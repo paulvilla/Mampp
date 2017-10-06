@@ -37,3 +37,7 @@ mampp.dev/phpmyadmin   ...........................   Web phpMyAdmin
     PASSWD:   vagrant
 vagrant.dev   ....................................   Dominio enlazado a la raiz de la web
 ```
+
+Box
+---
+Esta totalmente creada y editada por mi, ni necesitais y creis que es necesario algun servicio adicional decirmelo.
