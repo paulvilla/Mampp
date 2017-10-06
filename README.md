@@ -28,3 +28,12 @@ Linux:
   ................
 ```
 (Asi podras utilizar los dominios virtuales que he creado dentro)
+
+Dominios
+```json
+mampp.dev   ......................................   Info de Apache2
+mampp.dev/phpmyadmin   ...........................   Web phpMyAdmin
+          USER:     root
+          PASSWD:   vagrant
+vagrant.dev   ....................................   Dominio enlazado a la raiz de la web
+```
