@@ -33,7 +33,7 @@ Dominios
 ```json
 mampp.dev   ......................................   Info de Apache2
 mampp.dev/phpmyadmin   ...........................   Web phpMyAdmin
-          USER:     root
-          PASSWD:   vagrant
+    USER:     root
+    PASSWD:   vagrant
 vagrant.dev   ....................................   Dominio enlazado a la raiz de la web
 ```
