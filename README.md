@@ -6,11 +6,11 @@ USO
 ===
 Instalación (Pondre la version de los programas por posible errores futuras)
 ---
-1. Instalar VirtualBox (v5.1.28 r117968)
-2. Instalar Vagrant (v2.0.0)
+1. Instalar VirtualBox `(v5.1.28 r117968)`
+2. Instalar Vagrant `(v2.0.0)`
 
 Despues de las instalaciones lanzamos este comando en el CMD
-```json
+```
 vagrant plugin install vagrant-vbguest
 ```
 3. Descargaremos el repositorio y lo movemos a tu carpeta de usuario.
