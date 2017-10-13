@@ -19,13 +19,20 @@ vagrant plugin install vagrant-vbguest
 ```
 vagrant up
 ```
-6. En tu archivo host de windows (C:\Windows\System32\drivers\etc\hosts) añadiremos la siguiente linea:
-```
-windows: 
+Windows
+---
+En tu archivo host de windows (C:\Windows\System32\drivers\etc\hosts) añadiremos la siguiente linea:
+``` 
   192.168.1.10           mampp.dev
   192.168.1.10           vagrant.dev
-Linux:
-  ................
+  
+```
+Linux
+---
+En tu archivo host de linux (/etc/hosts) añadiremos la siguiente linea:
+```
+  192.168.1.10           mampp.dev
+  192.168.1.10           vagrant.dev
 ```
 (Asi podras utilizar los dominios virtuales que he creado dentro)
 
