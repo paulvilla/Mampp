@@ -16,7 +16,7 @@ vagrant plugin install vagrant-vbguest
 3. Descargaremos el repositorio y lo movemos a tu carpeta de usuario.
 4. Nos movemos a dicha carpeta desde el CMD
 5. Lanzaremos el siguiente comando:
-```json
+```
 vagrant up
 ```
 6. En tu archivo host de windows (C:\Windows\System32\drivers\etc\hosts) añadiremos la siguiente linea:
