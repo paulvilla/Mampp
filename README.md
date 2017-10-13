@@ -20,23 +20,23 @@ vagrant plugin install vagrant-vbguest
 vagrant up
 ```
 6. En tu archivo host de windows (C:\Windows\System32\drivers\etc\hosts) añadiremos la siguiente linea:
-
+```
 windows: 
-  * `192.168.1.10           mampp.dev`
-  * `192.168.1.10           vagrant.dev`
+  192.168.1.10           mampp.dev
+  192.168.1.10           vagrant.dev
 Linux:
-  * `................`
-
+  ................
+```
 (Asi podras utilizar los dominios virtuales que he creado dentro)
 
 Dominios
-
-* `mampp.dev   ......................................   Info de Apache2`
-* `mampp.dev/phpmyadmin   ...........................   Web phpMyAdmin`
+```
+mampp.dev   ......................................   Info de Apache2
+mampp.dev/phpmyadmin   ...........................   Web phpMyAdmin
     USER:     root
     PASSWD:   vagrant
-* `vagrant.dev   ....................................   Dominio enlazado a la raiz de la web`
-
+vagrant.dev   ....................................   Dominio enlazado a la raiz de la web
+```
 Box
 ---
 Esta totalmente creada y editada por mi, ni necesitais y creis que es necesario algun servicio adicional decirmelo.
